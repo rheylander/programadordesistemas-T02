@@ -1,0 +1,11 @@
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.frmExibirNome.resources
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\bin\Debug\exibirnome.exe.config
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\bin\Debug\exibirnome.exe
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\bin\Debug\exibirnome.pdb
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.exe
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.pdb
+C:\Users\rheylander.srodrigue\source\repos\exibirnome\obj\Debug\exibirnome.exe.config

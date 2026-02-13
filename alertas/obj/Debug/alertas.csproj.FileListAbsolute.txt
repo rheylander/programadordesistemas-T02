@@ -1,0 +1,11 @@
+C:\Users\rheylander.srodrigue\source\repos\alertas\bin\Debug\alertas.exe.config
+C:\Users\rheylander.srodrigue\source\repos\alertas\bin\Debug\alertas.exe
+C:\Users\rheylander.srodrigue\source\repos\alertas\bin\Debug\alertas.pdb
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.Form1.resources
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.exe
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.pdb
+C:\Users\rheylander.srodrigue\source\repos\alertas\obj\Debug\alertas.exe.config
