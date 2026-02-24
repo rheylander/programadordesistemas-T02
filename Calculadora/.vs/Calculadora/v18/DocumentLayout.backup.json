@@ -22,8 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T21:33:05.948Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -38,8 +58,8 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
+              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
               "ViewState": "AgIAADwAAAAAAAAAAAAWwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T21:33:05.624Z",
@@ -51,24 +71,12 @@
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.Designer.cs*",
+              "RelativeToolTip": "Form1.Designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8BAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T21:33:05.945Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\rheyl\\source\\repos\\programadordesistemas-T02\\Calculadora\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T21:33:05.948Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
