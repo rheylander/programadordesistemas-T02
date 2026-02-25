@@ -1,0 +1,11 @@
+C:\Users\rheylander.srodrigue\source\repos\switch\bin\Debug\@switch.exe.config
+C:\Users\rheylander.srodrigue\source\repos\switch\bin\Debug\@switch.exe
+C:\Users\rheylander.srodrigue\source\repos\switch\bin\Debug\@switch.pdb
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\switch.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\switch.Form1.resources
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\switch.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\switch.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\switch.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\@switch.exe
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\@switch.pdb
+C:\Users\rheylander.srodrigue\source\repos\switch\obj\Debug\@switch.exe.config
