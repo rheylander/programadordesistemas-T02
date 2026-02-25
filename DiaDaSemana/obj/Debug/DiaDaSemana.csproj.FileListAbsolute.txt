@@ -1,0 +1,11 @@
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\bin\Debug\DiaDaSemana.exe.config
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\bin\Debug\DiaDaSemana.exe
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\bin\Debug\DiaDaSemana.pdb
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.FrmCalendario.resources
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.exe
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.pdb
+C:\Users\rheylander.srodrigue\source\repos\DiaDaSemana\obj\Debug\DiaDaSemana.exe.config
