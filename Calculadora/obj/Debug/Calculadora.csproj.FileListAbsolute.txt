@@ -9,3 +9,13 @@ C:\Users\rheylander.srodrigue\source\repos\Calculadora\obj\Debug\Calculadora.csp
 C:\Users\rheylander.srodrigue\source\repos\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\rheylander.srodrigue\source\repos\Calculadora\obj\Debug\Calculadora.pdb
 C:\Users\rheylander.srodrigue\source\repos\Calculadora\obj\Debug\Calculadora.exe.config
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\rheyl\source\repos\programadordesistemas-T02\Calculadora\obj\Debug\Calculadora.pdb
