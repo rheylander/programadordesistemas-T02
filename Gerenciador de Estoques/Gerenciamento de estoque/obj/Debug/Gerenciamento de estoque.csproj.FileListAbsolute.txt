@@ -1,0 +1,11 @@
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\bin\Debug\Gerenciamento de estoque.exe.config
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\bin\Debug\Gerenciamento de estoque.exe
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\bin\Debug\Gerenciamento de estoque.pdb
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.csproj.AssemblyReference.cache
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento_de_estoque.Form1.resources
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento_de_estoque.Properties.Resources.resources
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.csproj.GenerateResource.cache
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.exe
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.pdb
+C:\Users\guilherme.srocha18\source\repos\Gerenciamento de estoque\Gerenciamento de estoque\obj\Debug\Gerenciamento de estoque.exe.config
