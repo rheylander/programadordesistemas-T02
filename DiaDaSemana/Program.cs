@@ -16,7 +16,7 @@ namespace DiaDaSemana
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCalendario());
+            Application.Run(new frmDiaSemana());
         }
     }
 }

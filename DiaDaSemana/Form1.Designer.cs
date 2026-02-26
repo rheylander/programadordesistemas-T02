@@ -1,6 +1,6 @@
 ﻿namespace DiaDaSemana
 {
-    partial class FrmCalendario
+    partial class frmDiaSemana
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,77 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiaSemana));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblExibiDiaDaSemana = new System.Windows.Forms.Label();
-            this.txtInsereNumeroDaSemana = new System.Windows.Forms.TextBox();
-            this.txtPerguntaDiaDaSemana = new System.Windows.Forms.TextBox();
-            this.btnVerificarDiaDaSemana = new System.Windows.Forms.Button();
+            this.lblInstrucao = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.btnVerificar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Moccasin;
-            this.panel1.Controls.Add(this.lblExibiDiaDaSemana);
-            this.panel1.Controls.Add(this.txtInsereNumeroDaSemana);
-            this.panel1.Controls.Add(this.txtPerguntaDiaDaSemana);
-            this.panel1.Controls.Add(this.btnVerificarDiaDaSemana);
+            this.panel1.Controls.Add(this.lblInstrucao);
+            this.panel1.Controls.Add(this.lblResultado);
+            this.panel1.Controls.Add(this.txtNumero);
+            this.panel1.Controls.Add(this.btnVerificar);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 450);
+            this.panel1.Size = new System.Drawing.Size(800, 464);
             this.panel1.TabIndex = 0;
             // 
-            // lblExibiDiaDaSemana
+            // lblInstrucao
             // 
-            this.lblExibiDiaDaSemana.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblExibiDiaDaSemana.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblExibiDiaDaSemana.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblExibiDiaDaSemana.Location = new System.Drawing.Point(196, 311);
-            this.lblExibiDiaDaSemana.Name = "lblExibiDiaDaSemana";
-            this.lblExibiDiaDaSemana.Size = new System.Drawing.Size(355, 42);
-            this.lblExibiDiaDaSemana.TabIndex = 3;
-            this.lblExibiDiaDaSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblExibiDiaDaSemana.Click += new System.EventHandler(this.lblExibiDiaDaSemana_Click);
+            this.lblInstrucao.AutoSize = true;
+            this.lblInstrucao.BackColor = System.Drawing.Color.Gold;
+            this.lblInstrucao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblInstrucao.Location = new System.Drawing.Point(191, 90);
+            this.lblInstrucao.Name = "lblInstrucao";
+            this.lblInstrucao.Size = new System.Drawing.Size(397, 34);
+            this.lblInstrucao.TabIndex = 4;
+            this.lblInstrucao.Text = "Digite um número de 1 a 7:";
             // 
-            // txtInsereNumeroDaSemana
+            // lblResultado
             // 
-            this.txtInsereNumeroDaSemana.Location = new System.Drawing.Point(297, 150);
-            this.txtInsereNumeroDaSemana.Name = "txtInsereNumeroDaSemana";
-            this.txtInsereNumeroDaSemana.Size = new System.Drawing.Size(153, 40);
-            this.txtInsereNumeroDaSemana.TabIndex = 2;
-            this.txtInsereNumeroDaSemana.TextChanged += new System.EventHandler(this.txtInsereNumeroDaSemana_TextChanged);
+            this.lblResultado.AutoEllipsis = true;
+            this.lblResultado.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblResultado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblResultado.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblResultado.Location = new System.Drawing.Point(191, 305);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(355, 42);
+            this.lblResultado.TabIndex = 3;
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
-            // txtPerguntaDiaDaSemana
+            // txtNumero
             // 
-            this.txtPerguntaDiaDaSemana.Location = new System.Drawing.Point(98, 77);
-            this.txtPerguntaDiaDaSemana.Name = "txtPerguntaDiaDaSemana";
-            this.txtPerguntaDiaDaSemana.Size = new System.Drawing.Size(550, 40);
-            this.txtPerguntaDiaDaSemana.TabIndex = 1;
-            this.txtPerguntaDiaDaSemana.Text = "Qual o dia da semana de hoje?";
-            this.txtPerguntaDiaDaSemana.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNumero.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.txtNumero.Location = new System.Drawing.Point(191, 157);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(153, 40);
+            this.txtNumero.TabIndex = 2;
+            this.txtNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNumero.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumero_KeyDown);
             // 
-            // btnVerificarDiaDaSemana
+            // btnVerificar
             // 
-            this.btnVerificarDiaDaSemana.Location = new System.Drawing.Point(202, 222);
-            this.btnVerificarDiaDaSemana.Name = "btnVerificarDiaDaSemana";
-            this.btnVerificarDiaDaSemana.Size = new System.Drawing.Size(342, 51);
-            this.btnVerificarDiaDaSemana.TabIndex = 0;
-            this.btnVerificarDiaDaSemana.Text = "Mostrar dia da semana";
-            this.btnVerificarDiaDaSemana.UseVisualStyleBackColor = true;
-            this.btnVerificarDiaDaSemana.Click += new System.EventHandler(this.btnVerificarDiaDaSemana_Click);
+            this.btnVerificar.BackColor = System.Drawing.Color.Gold;
+            this.btnVerificar.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificar.Location = new System.Drawing.Point(191, 229);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(342, 51);
+            this.btnVerificar.TabIndex = 0;
+            this.btnVerificar.Text = "Verificar";
+            this.btnVerificar.UseVisualStyleBackColor = false;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
-            // FrmCalendario
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(800, 464);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // frmDiaSemana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 464);
             this.Controls.Add(this.panel1);
-            this.Name = "FrmCalendario";
-            this.Text = "Calendário";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "frmDiaSemana";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dia da Semana";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -106,10 +131,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnVerificarDiaDaSemana;
-        private System.Windows.Forms.TextBox txtInsereNumeroDaSemana;
-        private System.Windows.Forms.TextBox txtPerguntaDiaDaSemana;
-        private System.Windows.Forms.Label lblExibiDiaDaSemana;
+        private System.Windows.Forms.Button btnVerificar;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label lblInstrucao;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

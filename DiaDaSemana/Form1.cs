@@ -10,56 +10,68 @@ using System.Windows.Forms;
 
 namespace DiaDaSemana
 {
-    public partial class FrmCalendario : Form
+    public partial class frmDiaSemana : Form
     {
-        public FrmCalendario()
+        public frmDiaSemana()
         {
             InitializeComponent();
         }
 
-        private void txtInsereNumeroDaSemana_TextChanged(object sender, EventArgs e)
+        private void btnVerificar_Click(object sender, EventArgs e)
         {
-            char[] numeros = txtInsereNumeroDaSemana.Text.ToCharArray();
+            VerificarDiaSemana();
         }
 
-        private void btnVerificarDiaDaSemana_Click(object sender, EventArgs e)
+        private void txtNumero_KeyDown(object sender, KeyEventArgs e)
         {
-            var txtInsereNumeroDaSemana = txtInsereNumeroDaSemana.Text;
-            switch (txtInsereNumeroDaSemana)
+            if (e.KeyCode == Keys.Enter)
             {
-                case "1":
-                    txtPerguntaDiaDaSemana.Text = "Domingo";
-                    break;
-
-                case "2":
-                    txtPerguntaDiaDaSemana.Text = "Segunda-feira";
-                    break;
-
-                case "3":
-                    txtPerguntaDiaDaSemana.Text = "Terça-feira";
-                    break;
-
-                case "4":
-                    txtPerguntaDiaDaSemana.Text = "Quarta-feira";
-                    break;
-
-                case "5":
-                    txtPerguntaDiaDaSemana.Text = "Quinta-feira";
-                    break;
-
-                case "6":
-                    txtPerguntaDiaDaSemana.Text = "Sexta-feira";
-                    break;
-
-                case "7":
-                    txtPerguntaDiaDaSemana.Text = "Sábado";
-                    break;
+                VerificarDiaSemana();
+                e.SuppressKeyPress = true;
             }
         }
 
-        private void lblExibiDiaDaSemana_Click(object sender, EventArgs e)
+        private void VerificarDiaSemana()
         {
-            MessageBox.Show("O número da semana é: " + txtInsereNumeroDaSemana.Text);
+            if (int.TryParse(txtNumero.Text, out int dia))
+            {
+                switch (dia)
+                {
+                    case 1:
+                        lblResultado.Text = "Resultado: Domingo";
+                        break;
+                    case 2:
+                        lblResultado.Text = "Resultado: Segunda-feira";
+                        break;
+                    case 3:
+                        lblResultado.Text = "Resultado: Terça-feira";
+                        break;
+                    case 4:
+                        lblResultado.Text = "Resultado: Quarta-feira";
+                        break;
+                    case 5:
+                        lblResultado.Text = "Resultado: Quinta-feira";
+                        break;
+                    case 6:
+                        lblResultado.Text = "Resultado: Sexta-feira";
+                        break;
+                    case 7:
+                        lblResultado.Text = "Resultado: Sábado";
+                        break;
+                    default:
+                        lblResultado.Text = "Número inválido.";
+                        break;
+                }
+            }
+            else
+            {
+                lblResultado.Text = "Digite apenas números.";
+            }
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
