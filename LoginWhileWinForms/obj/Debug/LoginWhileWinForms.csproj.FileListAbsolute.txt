@@ -1,0 +1,10 @@
+C:\Users\rheyl\source\repos\LoginWhileWinForms\bin\Debug\LoginWhileWinForms.exe.config
+C:\Users\rheyl\source\repos\LoginWhileWinForms\bin\Debug\LoginWhileWinForms.exe
+C:\Users\rheyl\source\repos\LoginWhileWinForms\bin\Debug\LoginWhileWinForms.pdb
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.csproj.AssemblyReference.cache
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.Form1.resources
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.Properties.Resources.resources
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.csproj.GenerateResource.cache
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.csproj.CoreCompileInputs.cache
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.exe
+C:\Users\rheyl\source\repos\LoginWhileWinForms\obj\Debug\LoginWhileWinForms.pdb
