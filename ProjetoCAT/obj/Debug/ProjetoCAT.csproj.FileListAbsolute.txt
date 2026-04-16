@@ -1,0 +1,9 @@
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\bin\Debug\ProjetoCAT.exe.config
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\bin\Debug\ProjetoCAT.exe
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\bin\Debug\ProjetoCAT.pdb
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.exe
+C:\Users\rheylander.srodrigue\source\repos\ProjetoCAT\obj\Debug\ProjetoCAT.pdb

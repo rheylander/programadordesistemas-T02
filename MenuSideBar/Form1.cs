@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MenuSideBar
@@ -15,12 +8,34 @@ namespace MenuSideBar
         public Form1()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.WindowState = FormWindowState.Maximized;
         }
 
-        private void sENHAToolStripMenuItem_Click(object sender, EventArgs e)
+        private void gerarSenhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmSENHA frm = new frmSENHA();
             frm.Show();
+        }
+
+        private void chamarSenhaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Função de chamar senha.");
+        }
+
+        private void visualizarFilaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Função de visualizar fila.");
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sistema com MenuStrip - atividade Windows Forms.", "Sobre");
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

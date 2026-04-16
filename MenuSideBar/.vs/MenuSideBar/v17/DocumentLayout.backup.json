@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|c:\\users\\rheylander.srodrigue\\source\\repos\\menusidebar\\frmsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|C:\\Users\\rheylander.srodrigue\\source\\repos\\MenuSideBar\\frmsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|solutionrelative:frmsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|c:\\users\\rheylander.srodrigue\\source\\repos\\menusidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|C:\\Users\\rheylander.srodrigue\\source\\repos\\MenuSideBar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|c:\\users\\rheylander.srodrigue\\source\\repos\\menusidebar\\frmsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E246DE2E-BDB9-4376-80A4-2FDF0285EAAA}|MenuSideBar.csproj|solutionrelative:frmsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSENHA.cs",
+              "DocumentMoniker": "C:\\Users\\rheylander.srodrigue\\source\\repos\\MenuSideBar\\frmSENHA.cs",
+              "RelativeDocumentMoniker": "frmSENHA.cs",
+              "ToolTip": "C:\\Users\\rheylander.srodrigue\\source\\repos\\MenuSideBar\\frmSENHA.cs",
+              "RelativeToolTip": "frmSENHA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T18:37:24.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,7 +69,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\rheylander.srodrigue\\source\\repos\\MenuSideBar\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T19:24:20.798Z",
               "EditorCaption": ""

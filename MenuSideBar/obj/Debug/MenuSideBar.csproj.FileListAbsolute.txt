@@ -8,3 +8,5 @@ C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.csp
 C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.csproj.CoreCompileInputs.cache
 C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.exe
 C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.pdb
+C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.exe.config
+C:\Users\rheylander.srodrigue\source\repos\MenuSideBar\obj\Debug\MenuSideBar.frmSENHA.resources

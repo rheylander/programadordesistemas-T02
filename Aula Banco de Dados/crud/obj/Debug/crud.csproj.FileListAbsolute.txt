@@ -1,0 +1,84 @@
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\crud.exe.config
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\crud.exe
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\crud.pdb
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.csproj.AssemblyReference.cache
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.frmCadastrodeClientes.resources
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.Properties.Resources.resources
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.csproj.GenerateResource.cache
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.exe
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.pdb
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.exe.config
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\Google.Protobuf.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\MySql.Data.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Buffers.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Memory.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\ZstdSharp.dll
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\Google.Protobuf.pdb
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\Google.Protobuf.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\MySql.Data.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Buffers.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Memory.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ana.cscunha1\source\repos\crud\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ana.cscunha1\source\repos\crud\obj\Debug\crud.csproj.Up2Date
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\crud.exe.config
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\crud.exe
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\crud.pdb
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\Google.Protobuf.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\MySql.Data.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Buffers.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.IO.Pipelines.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Memory.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\ZstdSharp.dll
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\Google.Protobuf.pdb
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\Google.Protobuf.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\MySql.Data.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Buffers.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.IO.Pipelines.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Memory.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.csproj.AssemblyReference.cache
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.exe.config
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.frmCadastrodeClientes.resources
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.Properties.Resources.resources
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.csproj.GenerateResource.cache
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.csproj.Up2Date
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.exe
+C:\Users\rheylander.srodrigue\Documents\Aula Banco de Dados\programadordesistemas-T02-main\crud\obj\Debug\crud.pdb

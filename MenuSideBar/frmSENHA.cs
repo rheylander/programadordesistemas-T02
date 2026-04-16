@@ -16,5 +16,10 @@ namespace MenuSideBar
         {
             InitializeComponent();
         }
+
+        private void frmSENHA_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
