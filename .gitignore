@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Test and coverage output
+TestResults/
+*.trx
+.coverage
+
+# NuGet
+packages/
+*.nupkg
+
+# User-specific files
+*.userosscache
+*.sln.docstates

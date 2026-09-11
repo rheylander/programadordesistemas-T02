@@ -1,58 +1,53 @@
-# programadordesistemas-T02
+# Programação de Sistemas — C# e Windows Forms
 
-Repositório com projetos e exercícios desenvolvidos em **C#**, com foco em prática, aprendizado e evolução na programação.
+Este repositório reúne exercícios e pequenos projetos desenvolvidos durante minha formação em Programação de Sistemas. Ele registra minha evolução prática em lógica de programação, C# e desenvolvimento de aplicações desktop.
 
-## Objetivo
-
-Este repositório foi criado para reunir atividades, testes e pequenos sistemas desenvolvidos durante meus estudos em **Programação de Sistemas**.  
-A proposta é registrar minha evolução, praticar lógica de programação e fortalecer a base no desenvolvimento com C#.
-
-## Conteúdos trabalhados
-
-Ao longo deste repositório, você encontrará exercícios e projetos relacionados a temas como:
+## O que estou praticando
 
 - lógica de programação;
-- estruturas condicionais;
-- estruturas de repetição;
-- vetores e matrizes;
-- classes e métodos;
-- manipulação de formulários;
-- desenvolvimento de aplicações em Windows Forms.
+- variáveis, operadores e estruturas condicionais;
+- laços de repetição;
+- vetores, matrizes e registros;
+- classes, métodos e fundamentos de orientação a objetos;
+- interfaces e eventos com Windows Forms;
+- organização básica de projetos no Visual Studio.
 
-## Estrutura do repositório
+## Projetos em destaque
 
-Cada pasta representa um exercício, prática ou projeto separado, desenvolvido de forma individual para estudo e aperfeiçoamento.
+### [Mapa de Assentos](./MapaDeAssentos)
 
-Exemplos de temas presentes no repositório:
+Aplicação acadêmica em C# Windows Forms para praticar matrizes, estados de interface, contadores e persistência simples em arquivo CSV.
 
-- calculadora;
-- dia da semana;
-- gerenciador de estoques;
-- alertas;
-- vetor unidirecional;
-- classes;
-- exibição de nome;
-- matriz;
-- switch case.
+### [Login While — Windows Forms](./LoginWhileWinForms)
 
-## Tecnologias utilizadas
+Aplicação acadêmica para praticar validação de login, controle de tentativas, interação por teclado e construção de uma interface simples em Windows Forms.
 
-- **C#**
-- **.NET / Windows Forms**
-- **Visual Studio**
+## Organização
 
-## Finalidade
+As demais pastas representam exercícios e práticas desenvolvidos em etapas diferentes do curso. Elas permanecem aqui como registro do processo de aprendizagem; os projetos em destaque recebem prioridade de documentação para o portfólio.
 
-Este repositório tem como finalidade:
+## Tecnologias
 
-- praticar programação na linguagem C#;
-- desenvolver raciocínio lógico;
-- aplicar conceitos vistos em aula;
-- construir portfólio acadêmico e profissional;
-- documentar minha trajetória de aprendizado na área de tecnologia.
+- C#
+- .NET e Windows Forms
+- Visual Studio
+- Git e GitHub
 
-## Como executar os projetos
+## Como executar
 
-1. Clone este repositório:
+1. Clone o repositório:
    ```bash
    git clone https://github.com/rheylander/programadordesistemas-T02.git
+   ```
+2. Abra no Visual Studio a solução ou o arquivo de projeto da pasta desejada.
+3. Restaure as dependências, quando solicitado, e execute o projeto.
+
+> Alguns exercícios utilizam versões diferentes do .NET Framework ou do .NET. A compatibilidade pode variar conforme a versão instalada no ambiente.
+
+## Escopo e estágio
+
+Este é um repositório de estudos e projetos acadêmicos em evolução. A documentação e a seleção dos projetos serão ampliadas gradualmente conforme cada aplicação for revisada, testada e preparada para apresentação.
+
+## Aprendizado
+
+A abordagem deste repositório é simples: estudar, praticar, compreender o resultado e documentar o que foi construído.
