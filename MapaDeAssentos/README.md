@@ -1,88 +1,82 @@
-# Mapa de Assentos — Matrizes (Windows Forms .NET Framework)
+# Mapa de Assentos — C# Windows Forms
+
+Aplicação acadêmica desenvolvida em C# para praticar matrizes bidimensionais, eventos de interface e persistência simples em arquivo CSV.
 
 ## Objetivo
-Desenvolver um programa em **C# (Windows Forms .NET Framework)** que trabalhe com **matrizes (arrays 2D)**, aplicando conceitos de programação e **versionamento de código (Git/GitHub)**.
 
-Este projeto simula um **mapa de assentos** (como cinema, ônibus ou sala) onde cada assento possui um estado:
-- **Livre**
-- **Reservado**
-- **Bloqueado**
+Simular um mapa de assentos, permitindo criar uma grade configurável e controlar o estado de cada posição.
 
----
+Estados utilizados:
 
-## Tecnologias
-- **C#**
-- **Windows Forms (.NET Framework)**
-- **Visual Studio 2022**
-- **Git/GitHub**
-
----
-
-## Conceito de Matriz (Array 2D) no projeto
-O sistema utiliza uma **matriz bidimensional** para representar os assentos:
-
-- `SeatState[,] _mapa`
-
-Onde:
-- `linha` = índice da linha do grid
-- `coluna` = índice da coluna do grid
-- `_mapa[linha, coluna]` = estado do assento naquela posição
-
-### Estados possíveis (enum)
-- `0 = Livre`
-- `1 = Reservado`
-- `2 = Bloqueado`
-
-Além disso, é usada uma segunda matriz para guardar os botões da interface:
-- `Button[,] _botoes`
-
-Isso permite atualizar rapidamente o visual de cada assento.
-
----
+- Livre;
+- Reservado;
+- Bloqueado.
 
 ## Funcionalidades
-✅ Gerar o grid com quantidade de **Linhas** e **Colunas** configuráveis  
-✅ Alterar estado do assento com base no **Modo** selecionado  
-✅ Contadores no rodapé: **Livres | Reservados | Bloqueados**  
-✅ **Salvar** o mapa em arquivo **CSV**  
-✅ **Carregar** o mapa a partir de arquivo **CSV**  
-✅ **Limpar** o mapa (reset para Livre)
 
----
+- Definição da quantidade de linhas e colunas;
+- Geração de uma grade de assentos;
+- Reserva e cancelamento de assentos;
+- Bloqueio e liberação de assentos;
+- Contadores de assentos livres, reservados e bloqueados;
+- Salvamento do mapa em CSV;
+- Carregamento de um mapa salvo;
+- Limpeza do mapa, retornando todos os assentos para o estado Livre.
 
-## Como usar
-1. Defina o número de **Linhas** e **Colunas** (NumericUpDown).
-2. Clique em **Gerar Grid** para criar o mapa.
-3. Escolha um **Modo**:
-   - **Reservar/Cancelar**: alterna entre Livre ↔ Reservado  
-   - **Bloquear**: define como Bloqueado  
-   - **Liberar**: define como Livre
-4. Clique em um assento (botão do grid) para aplicar a ação.
-5. Use:
-   - **Salvar (CSV)** para exportar o estado atual
-   - **Carregar (CSV)** para importar um mapa salvo
-   - **Limpar** para zerar o mapa
+## Conceitos praticados
 
----
+O projeto utiliza duas matrizes:
 
-## Regras de negócio aplicadas
-- Um assento **Bloqueado** não pode ser reservado diretamente.
-  - Para mudar um bloqueado, é necessário usar **Liberar**.
-- O modo **Reservar/Cancelar** alterna automaticamente:
-  - Livre → Reservado  
-  - Reservado → Livre
+`SeatState[,] _mapa` representa o estado de cada assento.
 
----
+`Button[,] _botoes` mantém a relação entre a matriz e os botões exibidos na interface.
 
-## Formato do arquivo (CSV)
-O arquivo salvo segue este padrão (sem JSON):
+A enumeração `SeatState` organiza os estados da aplicação:
 
-**Linha 1:** `linhas;colunas`  
-**Linhas seguintes:** valores separados por `;` com `0`, `1` ou `2`
+- `0` — Livre;
+- `1` — Reservado;
+- `2` — Bloqueado.
 
-Exemplo:
+## Regras principais
+
+- Um assento bloqueado não pode ser reservado diretamente;
+- Para alterar um assento bloqueado, é necessário usar o modo Liberar;
+- O modo Reservar/Cancelar alterna entre Livre e Reservado;
+- O grid aceita de 2 a 30 linhas e de 2 a 30 colunas.
+
+## Formato do CSV
+
+O arquivo salvo utiliza ponto e vírgula como separador:
+
 ```csv
 3;4
 0;0;1;0
 2;0;0;0
 0;1;0;2
+```
+
+A primeira linha informa a quantidade de linhas e colunas. As linhas seguintes armazenam os estados dos assentos.
+
+## Tecnologias
+
+- C#;
+- Windows Forms;
+- .NET Framework 4.7.2;
+- Visual Studio 2022;
+- Git e GitHub.
+
+## Como executar
+
+1. Abra o arquivo `MapaDeAssentos.sln` no Visual Studio.
+2. Restaure as dependências, se solicitado.
+3. Compile e execute o projeto.
+4. Gere o grid e teste os modos de reserva, bloqueio e liberação.
+5. Teste também o salvamento e o carregamento do CSV.
+
+## Limites atuais
+
+Este é um projeto acadêmico de estudo. Os dados são mantidos durante a execução e podem ser persistidos manualmente em CSV; não há banco de dados nem autenticação.
+
+## Aprendizados
+
+O projeto ajudou a praticar a relação entre dados, interface e regras de negócio em uma aplicação desktop. Também reforçou o uso de matrizes, eventos, validação de entradas e persistência simples em arquivo.
