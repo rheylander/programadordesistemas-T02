@@ -80,3 +80,18 @@ Este é um projeto acadêmico de estudo. Os dados são mantidos durante a execu�
 ## Aprendizados
 
 O projeto ajudou a praticar a relação entre dados, interface e regras de negócio em uma aplicação desktop. Também reforçou o uso de matrizes, eventos, validação de entradas e persistência simples em arquivo.
+
+## Validação da importação CSV
+
+O arquivo inteiro é validado antes de substituir o mapa atual. Cabeçalho e corpo devem conter exatamente as dimensões declaradas, entre 2 e 30, e apenas estados 0, 1 ou 2. Arquivos rejeitados preservam o mapa atual. Após uma importação válida, os seletores de linhas e colunas acompanham o tamanho importado.
+
+### Testes de regressão
+
+Execute `tests/Run-MapaCsvTests.ps1` no Windows com .NET Framework instalado. Os testes validam limites, estrutura e estados sem abrir a interface.
+
+Após compilar em Release, execute `tests/Run-MapaFormTests.ps1`. Os 17 testes de integração abrem um formulário real e verificam reservas, cores, contadores, rejeição de CSV inválido sem perda do estado, atualização das dimensões e salvamento/reabertura em arquivo temporário. Esses testes reutilizam as mesmas rotinas chamadas pelos botões de carregar e salvar.
+
+O workflow `Mapa de Assentos` compila o projeto para .NET Framework 4.7.2 no Windows e executa as duas suítes em cada PR que altera este projeto. Erros e avisos de compilação impedem a aprovação da verificação.
+
+Na aplicação, reserve um assento e tente importar um CSV com um estado inválido na última célula. Confirme que assentos, contadores e dimensões permanecem iguais. Depois importe um CSV válido de tamanho diferente e confira os seletores, contadores e o salvamento/reabertura. A execução visual deve ser confirmada antes de capturar screenshots para o portfólio.
+
