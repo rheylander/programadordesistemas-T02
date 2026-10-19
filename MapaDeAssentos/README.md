@@ -93,5 +93,55 @@ Após compilar em Release, execute `tests/Run-MapaFormTests.ps1`. Os 17 testes d
 
 O workflow `Mapa de Assentos` compila o projeto para .NET Framework 4.7.2 no Windows e executa as duas suítes em cada PR que altera este projeto. Erros e avisos de compilação impedem a aprovação da verificação.
 
-Na aplicação, reserve um assento e tente importar um CSV com um estado inválido na última célula. Confirme que assentos, contadores e dimensões permanecem iguais. Depois importe um CSV válido de tamanho diferente e confira os seletores, contadores e o salvamento/reabertura. A execução visual deve ser confirmada antes de capturar screenshots para o portfólio.
+Na aplicação, reserve um assento e tente importar um CSV com um estado inválido na última célula. Confirme que assentos, contadores e dimensões permanecem iguais. Depois importe um CSV válido de tamanho diferente e confira os seletores, contadores e o salvamento/reabertura. A validação manual e as capturas reais estão registradas a seguir.
 
+
+## Evidências de funcionamento
+
+Capturas reais feitas pelo autor em 18/10/2026. A sequência abaixo utiliza uma grade de 3 linhas e 5 colunas: 3 assentos livres, 8 reservados e 4 bloqueados.
+
+![Mapa antes de salvar: 3 livres, 8 reservados e 4 bloqueados](docs/imagens/mapa-01-estados-antes-de-salvar.png)
+
+<details>
+<summary>Ver limpeza, recuperação do CSV e rejeição de arquivo inválido</summary>
+
+![Após limpar: os 15 assentos ficam livres](docs/imagens/mapa-02-apos-limpar.png)
+
+![Carregamento bem-sucedido do CSV com recuperação dos estados](docs/imagens/mapa-03-csv-carregado.png)
+
+![CSV com estado inválido rejeitado sem substituir o mapa atual](docs/imagens/mapa-04-csv-invalido-rejeitado.png)
+
+![Após fechar o aviso, mapa e contadores permanecem iguais](docs/imagens/mapa-05-estado-preservado.png)
+
+</details>
+
+### Testes manuais realizados
+
+| Cenário | Procedimento | Resultado observado |
+| --- | --- | --- |
+| Grade inicial | Gerar 3 linhas e 4 colunas | 12 livres, nenhum reservado ou bloqueado |
+| Estados e contadores | Reservar e bloquear posições em uma grade 4 × 5 | 6 livres + 11 reservados + 3 bloqueados = 20 posições; cenário anterior, separado da sequência CSV |
+| Assento bloqueado | Tentar reservar diretamente uma posição bloqueada | Aviso orienta usar Liberar; reserva direta impedida |
+| Salvar e limpar | Salvar o mapa 3 × 5 e clicar em Limpar | CSV salvo; grade passa a 15 livres |
+| Carregar CSV válido | Reabrir o arquivo salvo | Mesmas posições restauradas, com 3 livres, 8 reservados e 4 bloqueados |
+| CSV inválido | Carregar um arquivo 2 × 2 contendo o estado 9 | Mensagem “Valor inválido em [1,1]. Use 0, 1 ou 2.” |
+| Preservação após erro | Fechar o aviso de CSV inválido | Grade continua 3 × 5, nas mesmas posições e com os mesmos contadores |
+
+CSV válido conferido com as imagens:
+
+```csv
+3;5
+1;2;1;1;0
+0;1;2;1;0
+1;2;1;2;1
+```
+
+Arquivo utilizado para testar rejeição:
+
+```csv
+2;2
+0;1
+2;9
+```
+
+A sequência confirma também o uso manual dos diálogos de salvar e abrir arquivos. As capturas complementam os 19 testes CSV e os 17 testes de integração WinForms já versionados e aprovados no [GitHub Actions](https://github.com/rheylander/programadordesistemas-T02/actions/runs/39181602969). Esta rodada acrescenta documentação e imagens; não altera as regras da aplicação.

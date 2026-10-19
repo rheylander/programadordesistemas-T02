@@ -78,3 +78,37 @@ O projeto é um exercício acadêmico. Ele não utiliza banco de dados, criptogr
 ## Aprendizados
 
 O projeto ajudou a compreender como uma aplicação desktop recebe entradas, valida condições, altera o estado de seus controles e orienta o usuário por meio de mensagens.
+
+## Evidências de funcionamento
+
+Capturas reais feitas pelo autor durante a validação manual em 18/10/2026. A senha e o e-mail utilizados são os dados fictícios deste exercício.
+
+![Login correto com mensagem de acesso liberado](docs/imagens/login-02-acesso-liberado.png)
+
+<details>
+<summary>Ver senha ocultada, tentativas incorretas e bloqueio</summary>
+
+![Credenciais de teste com a senha ocultada](docs/imagens/login-01-senha-oculta.png)
+
+![Primeiro erro: duas tentativas restantes e senha limpa](docs/imagens/login-03-primeiro-erro.png)
+
+![Segundo erro: uma tentativa restante](docs/imagens/login-04-segundo-erro.png)
+
+![Bloqueio: campos e botão Entrar desativados](docs/imagens/login-05-bloqueio.png)
+
+</details>
+
+### Testes manuais realizados
+
+| Cenário | Procedimento | Resultado observado |
+| --- | --- | --- |
+| Login correto | Informar as credenciais fictícias documentadas | Mensagem “Acesso liberado” e indicação de sucesso |
+| Tecla Enter | Acionar o login com Enter | Funcionamento confirmado pelo autor; a imagem estática não registra a tecla pressionada |
+| Primeira falha | Informar senha incorreta em uma sessão nova | Duas tentativas restantes; senha limpa |
+| Segunda falha | Repetir com senha incorreta | Uma tentativa restante |
+| Terceira falha | Repetir com senha incorreta | Aviso de bloqueio; após fechar o aviso, campos e botão desativados |
+| Ocultação da senha | Digitar no campo de senha | Caracteres ocultados |
+
+O teste de bloqueio foi iniciado após reabrir o aplicativo, zerando as tentativas. Também passaram 18 verificações locais de código com diálogos substituídos apenas no executável de teste; esse teste auxiliar não integra uma suíte versionada neste projeto. As capturas documentam a aplicação real, e a tecla Enter foi confirmada separadamente pelo autor.
+
+Os resultados demonstram o fluxo didático. Não transformam as credenciais fixas em autenticação adequada para produção.
