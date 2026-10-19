@@ -1,0 +1,27 @@
+name: Mapa de Assentos
+on:
+  pull_request:
+    paths:
+      - 'MapaDeAssentos/**'
+      - '.github/workflows/mapa-de-assentos.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/setup-msbuild@v2
+      - name: Compilar para .NET Framework 4.7.2
+        shell: pwsh
+        run: |
+          msbuild MapaDeAssentos/MapaDeAssentos.csproj /t:Rebuild /p:Configuration=Release /nologo /warnaserror
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Testar leitor CSV
+        shell: pwsh
+        run: ./MapaDeAssentos/tests/Run-MapaCsvTests.ps1
+      - name: Testar formulario e persistencia
+        shell: pwsh
+        run: ./MapaDeAssentos/tests/Run-MapaFormTests.ps1

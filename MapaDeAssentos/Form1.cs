@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -216,24 +216,9 @@ namespace MatrizesWinFormsAssentos
 
                 if (sfd.ShowDialog() != DialogResult.OK) return;
 
-                int linhas = _mapa.GetLength(0);
-                int colunas = _mapa.GetLength(1);
-
                 try
                 {
-                    using (StreamWriter sw = new StreamWriter(sfd.FileName))
-                    {
-                        sw.WriteLine(linhas + ";" + colunas);
-
-                        for (int r = 0; r < linhas; r++)
-                        {
-                            string[] vals = new string[colunas];
-                            for (int c = 0; c < colunas; c++)
-                                vals[c] = ((int)_mapa[r, c]).ToString();
-
-                            sw.WriteLine(string.Join(";", vals));
-                        }
-                    }
+                    File.WriteAllLines(sfd.FileName, ExportarMapaCsv());
 
                     MessageBox.Show("Mapa salvo com sucesso!", "OK",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -267,65 +252,56 @@ namespace MatrizesWinFormsAssentos
                     return;
                 }
 
-                if (linhasArquivo.Length < 2)
+                string erro;
+                if (!TryImportarMapaCsv(linhasArquivo, out erro))
                 {
-                    MessageBox.Show("Arquivo inválido (conteúdo insuficiente).", "Erro",
+                    MessageBox.Show(erro, "Erro",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
-                string[] header = linhasArquivo[0].Split(';');
-                int linhas, colunas;
-
-                if (header.Length < 2 ||
-                    !int.TryParse(header[0], out linhas) ||
-                    !int.TryParse(header[1], out colunas) ||
-                    linhas < 2 || colunas < 2)
-                {
-                    MessageBox.Show("Arquivo inválido (cabeçalho). Use: linhas;colunas",
-                        "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                if (linhasArquivo.Length < linhas + 1)
-                {
-                    MessageBox.Show("Arquivo inválido (linhas faltando).",
-                        "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                GerarMapa(linhas, colunas);
-
-                for (int r = 0; r < linhas; r++)
-                {
-                    string[] parts = linhasArquivo[r + 1].Split(';');
-                    if (parts.Length < colunas)
-                    {
-                        MessageBox.Show("Arquivo inválido (colunas faltando na linha " + (r + 1) + ").",
-                            "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-
-                    for (int c = 0; c < colunas; c++)
-                    {
-                        int v;
-                        if (!int.TryParse(parts[c], out v) || v < 0 || v > 2)
-                        {
-                            MessageBox.Show("Valor inválido em [" + r + "," + c + "]. Use 0, 1 ou 2.",
-                                "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            return;
-                        }
-
-                        _mapa[r, c] = (SeatState)v;
-                    }
-                }
-
-                AtualizarVisual();
-                AtualizarContadores();
-
                 MessageBox.Show("Mapa carregado com sucesso!", "OK",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        internal bool TryImportarMapaCsv(string[] linhasArquivo, out string erro)
+        {
+            int[,] estados;
+            if (!MapaCsv.TryParse(linhasArquivo, out estados, out erro))
+                return false;
+
+            // Só substitui o mapa atual depois de validar o arquivo inteiro.
+            int linhas = estados.GetLength(0);
+            int colunas = estados.GetLength(1);
+            GerarMapa(linhas, colunas);
+            for (int r = 0; r < linhas; r++)
+                for (int c = 0; c < colunas; c++)
+                    _mapa[r, c] = (SeatState)estados[r, c];
+
+            nudLinhas.Value = linhas;
+            nudColunas.Value = colunas;
+
+            AtualizarVisual();
+            AtualizarContadores();
+
+            return true;
+        }
+
+        internal string[] ExportarMapaCsv()
+        {
+            int linhas = _mapa.GetLength(0);
+            int colunas = _mapa.GetLength(1);
+            string[] arquivo = new string[linhas + 1];
+            arquivo[0] = linhas + ";" + colunas;
+            for (int r = 0; r < linhas; r++)
+            {
+                string[] valores = new string[colunas];
+                for (int c = 0; c < colunas; c++)
+                    valores[c] = ((int)_mapa[r, c]).ToString();
+                arquivo[r + 1] = string.Join(";", valores);
+            }
+            return arquivo;
         }
     }
 }
